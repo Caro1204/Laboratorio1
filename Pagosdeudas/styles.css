@@ -1,0 +1,68 @@
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: rgb(180, 153, 174); 
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 80%; 
+    margin-top: 20px; 
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #93c8fe;
+}
+
+form div {
+    margin-bottom: 15px;
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #34b1ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0011ff;
+}
